@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: erp_northwind
+    description: Banco réplica do erp da northwind
+    schema: erp_northwind
+    tables: 
+      - name: orders
+        description: Tabela de pedidos, uma linha por pedido incluindo pedidos cancelados
+        columns: 
+          - name: order_id
+            description: chave primária da tabela orders
+            tests: 
+              - unique
+              - not_null
+              
+      - name: products
+        description: Tabela de produtos
+
+      - name: categories
+        description: Tabela de categorias
+
+      - name: suppliers
+        description: Tabela de fornecedores
+
+      - name: shippers
+        description: Tabela de fornecedores
+
+      - name: order_details
+        description: Detalhamento dos pedidos
+        
+      - name: customers
+        description: Tabela de clientes

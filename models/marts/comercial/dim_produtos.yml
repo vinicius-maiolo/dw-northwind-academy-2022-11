@@ -1,0 +1,74 @@
+models:
+  - name: dim_produtos
+    description: Dimensão com informações de produtos com categorias e fornecedores
+    columns:
+      - name: sk_produto
+        description: PK da dim_produtos
+        tests:
+          - unique
+          - not_null
+
+      - name: id_produto
+        description: Não documentado ainda
+
+      - name: nome_produto
+        description: Não documentado ainda
+
+      - name: id_fornecedor
+        description: Não documentado ainda
+
+      - name: id_categoria
+        description: Não documentado ainda
+
+      - name: qtde_por_unidade
+        description: Não documentado ainda
+
+      - name: pco_unitario
+        description: Não documentado ainda
+
+      - name: un_em_estoque
+        description: Não documentado ainda
+
+      - name: un_pedidas
+        description: Não documentado ainda
+
+      - name: un_para_abast
+        description: Não documentado ainda
+
+      - name: descontinuado
+        description: Não documentado ainda
+
+      - name: nome_categoria
+        description: Não documentado ainda
+
+      - name: descricao
+        description: Não documentado ainda
+
+      - name: nome_cia
+        description: Não documentado ainda
+
+      - name: nome_contato
+        description: Não documentado ainda
+
+      - name: titulo_contato
+        description: Não documentado ainda
+
+      - name: endereco
+        description: Não documentado ainda
+
+      - name: cidade
+        description: Não documentado ainda
+
+      - name: regiao
+        description: Não documentado ainda
+
+      - name: codigo_postal
+        description: Não documentado ainda
+
+      - name: pais
+        description: Não documentado ainda
+
+      - name: fone
+        description: Não documentado ainda
+
+
